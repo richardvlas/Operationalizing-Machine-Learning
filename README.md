@@ -12,11 +12,22 @@ The figure below shows steps that will be implemented in this project:
 ## Key Steps
 
 ### 1. Authentication
-In this step, we will need to install the Azure Machine Learning Extension which allows us to interact with Azure Machine Learning Studio, part of the `az` command. After having the Azure machine Learning Extension, we will create a Service Principal account and associate it with specific workspace. 
+In this step, we need to install the Azure Machine Learning Extension which allows us to interact with Azure Machine Learning Studio, part of the `az` command. After having the Azure machine Learning Extension, we create a Service Principal account and associate it with specific workspace. 
 
 **Note**: I am using provided project lab with authentication done, so I skiped this step.
 
 ### 2. Automated ML Experiment
+In this step, we create an experiment using Automated ML, configure a compute cluster, and use that cluster to run the experiment.
+We need to upload the [dataset](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv) to Azure Machine Learning Studio so that it can be used when training the model.
+
+**Registered Datasets**
+<img src="images/placeholder" width=75%>
+
+**AutoML Experiment Completed**
+<img src="images/placeholder" width=75%>
+
+**Completed Experiment**
+<img src="images/placeholder" width=75%>
 
 
 ### 3. Deploy the best model
