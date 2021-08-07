@@ -75,9 +75,32 @@ Swagger is an Interface Description Language for describing RESTful APIs express
 In order to cosume the deployed model using Swagger, Azure provides a Swagger JSON file for deployed models. We can find and download it from the Endpoints section under the deployed model.
 
 
-
 ### 6. Consume model endpoints
+Now it's time to interact with the deployed model and to test it, we use the `endpoint.py` script to call the trained model and while feeding it with some test data. Before we run the script, we need to modify both the `scoring_uri` and the `key` to match the key for our service and the URI that was generated after deployment. This URI can be found in the Details tab, above the Swagger URI.
+
+**Consuming Model Endpoints**
+
+This shows that the `endpoint.py` script runs against the API producing JSON output from the model:
+
+<img src="images/placeholder" width=75%>
+
+
 ### 7. Create and publish a pipeline
+For this part of the project, we use a Jupyter Notebook to create and publish a pipeline. This notebook demonstrates the use of AutoMLStep in Azure Machine Learning Pipeline.
+The notebook uses Python SDK to do the following:
+
+- Create an Experiment in an existing Workspace.
+- Create or Attach existing AmlCompute to a workspace.
+- Define data loading in a TabularDataset.
+- Configure AutoML using AutoMLConfig.
+- Use AutoMLStep
+- Train the model using AmlCompute
+- Explore the results.
+- Test the best fitted model.
+
+In order to use the notebook we must make sure to have the same keys, URI, dataset, cluster, and model names already created
+
+
 ### 8. Documentation
 
 
