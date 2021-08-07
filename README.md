@@ -100,6 +100,26 @@ The notebook uses Python SDK to do the following:
 
 In order to use the notebook we must make sure to have the same keys, URI, dataset, cluster, and model names already created
 
+**Created Pipeline**
+<img src="images/placeholder" width=75%>
+
+**Pipeline Endpoint**
+<img src="images/placeholder" width=75%>
+
+**Bankmarketing dataset with AutoML module**
+<img src="images/placeholder" width=75%>
+
+**Published Pipeline Overview**
+<img src="images/placeholder" width=75%>
+
+**RunDetails Widget**
+<img src="images/placeholder" width=75%>
+
+**Scheduled/Running Pipeline**
+<img src="images/placeholder" width=75%>
+
+
+
 
 ### 8. Documentation
 
