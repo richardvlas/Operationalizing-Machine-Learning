@@ -119,9 +119,12 @@ In order to use the notebook we must make sure to have the same keys, URI, datas
 <img src="images/placeholder" width=75%>
 
 
+## Screen Recording
+This [screencast](https://update_link) shows the entire process of the working ML application.
+
+## Future Improvements
 
 
-### 8. Documentation
 
 
 
