@@ -96,20 +96,20 @@ for line in logs.split('\n'):
     print(line)
 ```
 
-
+Prior to running the `logs.py` script, make sure to download and store the `config.json` file in the same folder.
 
 **Application Insights Enabled**
 
 The figure below shows that Application Insights is enabled in the Detail tab of the endpoint with url provided:
 
-<img src="images/placeholder" width=75%>
+<img src="images/application_insights_enabled.PNG" width=100%>
 
 
 **Logs from logs.py script**
 
 The next figure shows the output from the logs.py script that enables the Application Insights among other logs information:
 
-<img src="images/placeholder" width=75%>
+<img src="images/.PNG" width=100%>
 
 
 ### 5. Swagger Documentation
