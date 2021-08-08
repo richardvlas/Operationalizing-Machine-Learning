@@ -26,7 +26,7 @@ We need to upload the [dataset](https://automlsamplenotebookdata.blob.core.windo
 **AutoML Experiment Completed**
 <img src="images/placeholder" width=75%>
 
-**Completed Experiment**
+**Best Model**
 <img src="images/placeholder" width=75%>
 
 
