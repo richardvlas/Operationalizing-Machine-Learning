@@ -109,7 +109,7 @@ The figure below shows that Application Insights is enabled in the Detail tab of
 
 The next figure shows the output from the logs.py script that enables the Application Insights among other logs information:
 
-<img src="images/.PNG" width=100%>
+<img src="images/logs.PNG" width=100%>
 
 
 ### 5. Swagger Documentation
@@ -117,6 +117,12 @@ The next figure shows the output from the logs.py script that enables the Applic
 Swagger is an Interface Description Language for describing RESTful APIs expressed using JSON. Swagger is used together with a set of open-source software tools to design, build, document, and use RESTful web services.
 
 In order to cosume the deployed model using Swagger, Azure provides a Swagger JSON file for deployed models. We can find and download it from the Endpoints section under the deployed model.
+
+**Default Swagger page**
+
+<img src="images/.PNG" width=100%>
+
+
 
 
 ### 6. Consume model endpoints
