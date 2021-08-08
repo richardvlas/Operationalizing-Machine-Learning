@@ -36,9 +36,13 @@ In `Configure run` section we select task type to `Classification` and check the
 
 **AutoML Experiment Running**
 
+The AutoML is running and training of multiple classication models is in progress.
+
 <img src="images/04_automl_running.PNG" width=100%>
 
 **AutoML Experiment Completed**
+
+The experiment is comleted and the Best Model Summary shows best performing model in terms of accuracy.
 
 <img src="images/05_automl_completed.PNG" width=100%>
 
@@ -120,13 +124,19 @@ In order to cosume the deployed model using Swagger, Azure provides a Swagger JS
 
 **Default Swagger page**
 
+Below we can see default Swagger documentation before running the `serve.py` script.
+
 <img src="images/swagger_default_page.PNG" width=100%>
 
 **Swagger Model Documentation**
 
+Once the script is run, we can see the documentation of our model, as shown below.
+
 <img src="images/swagger_model_page.PNG" width=100%>
 
 **API Methods of the Model**
+
+The API methods is a crutial part of the documentation, as it allows us to check the structure of json file we can send to the model via POST request.
 
 <img src="images/swagger_api_get.PNG" width=100%>
 <img src="images/swagger_api_methods.PNG" width=100%>
