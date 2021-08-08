@@ -21,13 +21,34 @@ In this step, we create an experiment using Automated ML, configure a compute cl
 We need to upload the [dataset](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv) to Azure Machine Learning Studio so that it can be used when training the model.
 
 **Registered Datasets**
-<img src="images/placeholder" width=75%>
+
+We need to upload the `bankmarketing_train.csv` dataset into Azure ML Studio before we can use AutoML to train different ML models.  
+
+<img src="images/01_bank_marketing_dataset.PNG" width=100%>
+
+Next we create a new Automated ML experiment, name it `automl-experiment-bank-marketing`, specify `y` as the target column from the dataset. We also need to create new compute cluster, for example using virtual machine `Standard_DS12_v2` and select minimum number of nodes to `1`.
+
+<img src="images/02_create_automl_experiment.PNG" width=100%>
+
+In `Configure run` section we select task type to `Classification` and check the `Explain best model` option. On `Exit criterion`, set `Training job time` to `1` hour and on `Concurency` set `Max. concurent iterations` to `5`.
+
+<img src="images/03_automl_select_task.PNG" width=100%>
+
+**AutoML Experiment Running**
+
+<img src="images/04_automl_running.PNG" width=100%>
 
 **AutoML Experiment Completed**
-<img src="images/placeholder" width=75%>
+
+<img src="images/05_automl_completed.PNG" width=100%>
 
 **Best Model**
-<img src="images/placeholder" width=75%>
+
+The above figure showed Best Model Summary and the figure below shows some of the metrics of the best model from AutoML.
+
+<img src="images/06_best_model.PNG" width=100%>
+
+
 
 
 ### 3. Deploy the best model
