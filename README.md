@@ -49,26 +49,27 @@ The above figure showed Best Model Summary and the figure below shows some of th
 <img src="images/06_best_model.PNG" width=100%>
 
 
-
-
 ### 3. Deploy the best model
-After the experiment run completes, the Best Model is selected for deployment. Deploying the Best Model will allow to interact with the HTTP API service and interact with the model by sending data over POST requests.
+After the experiment run completes, the Best Model will be selected for deployment. Deploying the Best Model will allow to interact with it through the HTTP API service by sending data over POST requests.
 
 The Best Model is shown in the Details tab and it will also come up in the Models tab at the top. 
 
 **Deploying the Best Model**
-<img src="images/placeholder" width=75%>
+
+<img src="images/best_model_deploying.PNG" width=100%>
 
 **Deployed Best Model**
 
 The Best Model is deployed with Authentication enabled using Azure Container Instance (ACI) 
-<img src="images/placeholder" width=75%>
+
+<img src="images/best_model_deployed.PNG" width=100%>
 
 
 **Endpoint**
 
-After the model is deployed, Endpoint and Swagger URI were created. This can be seen in the Endpoint tab. We can notice that the Application Insights hasn't been created yet.
-<img src="images/placeholder" width=75%>
+After the model is deployed, we can notice that the Application Insights hasn't been created yet and this is what we will do next.
+
+<img src="images/best_model_deployed_endpoint.PNG" width=100%>
 
 
 ### 4. Enable logging
