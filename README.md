@@ -120,7 +120,17 @@ In order to cosume the deployed model using Swagger, Azure provides a Swagger JS
 
 **Default Swagger page**
 
-<img src="images/.PNG" width=100%>
+<img src="images/swagger_default_page.PNG" width=100%>
+
+**Swagger Model Documentation**
+
+<img src="images/swagger_model_page.PNG" width=100%>
+
+**API Methods of the Model**
+
+<img src="images/swagger_api_get.PNG" width=100%>
+<img src="images/swagger_api_methods.PNG" width=100%>
+<img src="images/swagger_api_responses.PNG" width=100%>
 
 
 
