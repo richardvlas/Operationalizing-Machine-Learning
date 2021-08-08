@@ -159,22 +159,27 @@ The notebook uses Python SDK to do the following:
 In order to use the notebook we must make sure to have the same keys, URI, dataset, cluster, and model names already created
 
 **Created Pipeline**
-<img src="images/placeholder" width=75%>
+
+<img src="images/pipeline_in_azure.PNG" width=100%>
+
+**Pipeline Overview**
+
+<img src="images/pipeline_in_azure_2.PNG" width=100%>
 
 **Pipeline Endpoint**
-<img src="images/placeholder" width=75%>
 
-**Bankmarketing dataset with AutoML module**
-<img src="images/placeholder" width=75%>
+<img src="images/publish_endpoint.PNG" width=100%>
 
-**Published Pipeline Overview**
-<img src="images/placeholder" width=75%>
+**Published Pipeline Endpoint**
+
+<img src="images/published_pipeline_endpoint.PNG" width=100%>
 
 **RunDetails Widget**
-<img src="images/placeholder" width=75%>
 
-**Scheduled/Running Pipeline**
-<img src="images/placeholder" width=75%>
+<img src="images/pipeline_run.PNG" width=100%>
+
+<img src="images/pipeline_run_2.PNG" width=100%>
+
 
 
 ## Screen Recording
