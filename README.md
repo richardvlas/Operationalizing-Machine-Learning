@@ -133,10 +133,8 @@ In order to cosume the deployed model using Swagger, Azure provides a Swagger JS
 <img src="images/swagger_api_responses.PNG" width=100%>
 
 
-
-
 ### 6. Consume model endpoints
-Now it's time to interact with the deployed model and to test it, we use the `endpoint.py` script to call the trained model and while feeding it with some test data. Before we run the script, we need to modify both the `scoring_uri` and the `key` to match the key for our service and the URI that was generated after deployment. This URI can be found in the Details tab, above the Swagger URI.
+Now it's time to interact with the deployed model and to test it, we use the `endpoint.py` script to call the trained model and feeding it with some test data. Before we run the script, we need to modify both the `scoring_uri` and the `key` to match the key for our service and the URI that was generated after deployment. This URI can be found in the Details tab, above the Swagger URI.
 
 **Consuming Model Endpoints**
 
