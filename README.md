@@ -181,12 +181,15 @@ In order to use the notebook we must make sure to have the same keys, URI, datas
 <img src="images/pipeline_run_2.PNG" width=100%>
 
 
-
 ## Screen Recording
 This [screencast](https://youtu.be/I2HV_blwz2Y) shows the entire process of the working ML application.
 
 ## Future Improvements
+The project could be improved on by the following:
 
+- Model accuracy could be potential increased by collecting more data, while making sure all classes are represented equaly.
+- Try using Deep learning as a technique to achieve higher accuracy.
+- Create a simple web app to interact with the deployed ML model. This would nicely demonstrate the whole end-to-end process from development until user interaction.
 
 
 
