@@ -183,7 +183,7 @@ In order to use the notebook we must make sure to have the same keys, URI, datas
 
 
 ## Screen Recording
-This [screencast](https://update_link) shows the entire process of the working ML application.
+This [screencast](https://youtu.be/I2HV_blwz2Y) shows the entire process of the working ML application.
 
 ## Future Improvements
 
