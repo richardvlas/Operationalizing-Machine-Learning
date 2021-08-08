@@ -67,7 +67,7 @@ The Best Model is deployed with Authentication enabled using Azure Container Ins
 
 **Endpoint**
 
-After the model is deployed, we can notice that the Application Insights hasn't been created yet and this is what we will do next.
+After the model is deployed, Endpoint and Swagger URI were created. This can be seen in the Endpoint tab. We can notice that the Application Insights hasn't been created yet and this is what we will do next.
 
 <img src="images/best_model_deployed_endpoint.PNG" width=100%>
 
