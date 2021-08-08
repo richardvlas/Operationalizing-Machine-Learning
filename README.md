@@ -73,7 +73,29 @@ After the model is deployed, Endpoint and Swagger URI were created. This can be 
 
 
 ### 4. Enable logging
-Now that the Best Model is deployed, enable Application Insights and retrieve logs. Although this is configurable at deploy time with a check-box, it is useful to be able to run code that will enable it for us.
+Now that the Best Model is deployed, enable Application Insights and retrieve logs. Although this is configurable at deploy time with a check-box, it is useful to be able to run code that will enable it for us. Here is a snippet of the code:
+
+```python
+from azureml.core import workspace
+from azureml.core.webservice import Webservice
+
+# Requires the config to be downloaded first to the current working directory
+ws = workspace.from_config()
+
+# Set with the deployment name
+name = "automl-votingensemble"
+
+# load existing web service
+service = Webservice(name=name, workspace=ws)
+
+service.update(enable_app_insights=True)
+
+logs = service.get_logs()
+
+for line in logs.split('\n'):
+    print(line)
+```
+
 
 
 **Application Insights Enabled**
