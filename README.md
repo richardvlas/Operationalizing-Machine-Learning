@@ -170,13 +170,19 @@ In order to use the notebook we must make sure to have the same keys, URI, datas
 
 **Created Pipeline**
 
+Pipeline is created and running as the Status in Aml indicates.
+
 <img src="images/pipeline_in_azure.PNG" width=100%>
 
 **Pipeline Overview**
 
+Graphical represenation toghether with Pipeline run overview details is shown below:
+
 <img src="images/pipeline_in_azure_2.PNG" width=100%>
 
 **Pipeline Endpoint**
+
+Python SDK is used to publish the pipeline and provides us with a REST endpoint to interact with it.
 
 <img src="images/publish_endpoint.PNG" width=100%>
 
@@ -185,6 +191,8 @@ In order to use the notebook we must make sure to have the same keys, URI, datas
 <img src="images/published_pipeline_endpoint.PNG" width=100%>
 
 **RunDetails Widget**
+
+The RunDetails Widget retrieves information and monitors the pipeline run.
 
 <img src="images/pipeline_run.PNG" width=100%>
 
