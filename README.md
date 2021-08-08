@@ -140,7 +140,7 @@ Now it's time to interact with the deployed model and to test it, we use the `en
 
 This shows that the `endpoint.py` script runs against the API producing JSON output from the model:
 
-<img src="images/placeholder" width=75%>
+<img src="images/endpoint_script_output.PNG" width=100%>
 
 
 ### 7. Create and publish a pipeline
