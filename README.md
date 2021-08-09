@@ -4,7 +4,7 @@ In this project we make a use of Microsoft Azure Cloud to configure a cloud-base
 
 Once the AutoML experiment is completed, we then select the best model in terms of accuracy out of all models trained and deploy it using Azure Container Instance (ACI). The model can now be consumed via a REST API and authentication key generated. 
 
-To automate the process as much as possible, we leverage the use of Python SDK to create, publish, and consume a pipeline that will orchestrate all steps such as allocation of compute resources, creating an experiment in an workspace, loading data in a `TabularDataset`, setting up or calling existing ML model generated via AutoML that can be configured via `AutoMLConfig` and last but not least validation and testing. 
+To automate this process as much as possible, we leverage the use of Python SDK to create, publish, and consume a pipeline that will orchestrate all steps such as allocation of compute resources, creating an experiment in an workspace, loading data in a `TabularDataset`, setting up or calling existing ML model generated via AutoML that can be configured via `AutoMLConfig` and last but not least validation and testing. 
 
 Once the pipeline is published, a REST endpoint enables to call and rerun the pipeline from any HTTP library on any platform.
 
