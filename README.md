@@ -1,8 +1,10 @@
 # Operationalizing-Machine-Learning
 
-In this project we use Microsoft Azure Cloud Computing Services to configure a cloud-based machine learning production model, deploy it, and consume it. We will also create, publish, and consume a pipeline. 
+In this project we make a use of Microsoft Azure Cloud to configure a cloud-based machine learning production model, deploy it, and consume it. We first train a set of machine learning models leveraging AutoML to automaticaly train and tune a model using given target metric. The dataset used to train the ML model consists of Bank Marketing data and can be found [here](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv).
 
-The dataset used to train the ML model consists of Bank Marketing data and can be found [here](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv).
+Once the AutoML experiment is completed, we then select the best model in terms of accuracy out of all models trained and deploy it using Azure Container Instance (ACI). The model can now be consumed via a REST API and authentication key generated. 
+
+To automate the process as much as possible, we leverage the use of Python SDK to create, publish, and consume a pipeline that will orchestrate all steps. This is an important step to achieve CI/CD automation. 
 
 ## Architectural Diagram
 The figure below shows steps that will be implemented in this project:
