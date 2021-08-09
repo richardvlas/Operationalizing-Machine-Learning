@@ -48,7 +48,7 @@ The AutoML is running and training of multiple classication models is in progres
 
 **AutoML Experiment Completed**
 
-The experiment is comleted and the Best Model Summary shows best performing model in terms of accuracy.
+The experiment is completed and the Best Model Summary shows best performing model in terms of accuracy.
 
 <img src="images/05_automl_completed.PNG" width=100%>
 
@@ -66,11 +66,13 @@ The Best Model is shown in the Details tab and it will also come up in the Model
 
 **Deploying the Best Model**
 
+After the AutoMl run is completed, select `Deploy` to deploy the best model, choose `Name`, select `Azure Container Instance` (ACI) as `Compute type` and check `Enable authentication`:
+
 <img src="images/best_model_deploying.PNG" width=100%>
 
 **Deployed Best Model**
 
-The Best Model is deployed with Authentication enabled using Azure Container Instance (ACI) 
+The model summary is showing the Best Model deployed with Authentication enabled using Azure Container Instance (ACI) 
 
 <img src="images/best_model_deployed.PNG" width=100%>
 
@@ -145,7 +147,13 @@ Once the script is run, we can see the documentation of our model, as shown belo
 The API methods is a crutial part of the documentation, as it allows us to check the structure of json file we can send to the model via POST request.
 
 <img src="images/swagger_api_get.PNG" width=100%>
+
+The figure below shows HTTP POST request parameters that specify the structure of the input message to be sent via the POST request:
+
 <img src="images/swagger_api_methods.PNG" width=100%>
+
+The next figure ilustrates the structure of successful response from POST request: 
+
 <img src="images/swagger_api_responses.PNG" width=100%>
 
 
@@ -194,6 +202,8 @@ Python SDK is used to publish the pipeline and provides us with a REST endpoint 
 
 **Published Pipeline Endpoint**
 
+Once the pipeline is published, we can view the REST endpoint in Azure ML Studio under the Pipeline tab:
+
 <img src="images/published_pipeline_endpoint.PNG" width=100%>
 
 **RunDetails Widget**
@@ -201,6 +211,8 @@ Python SDK is used to publish the pipeline and provides us with a REST endpoint 
 The RunDetails Widget retrieves information and monitors the pipeline run.
 
 <img src="images/pipeline_run.PNG" width=100%>
+
+RunDetails Widget showing graphical representation of our pipeline. Link to Azure ML Studio is also provides below to get more details through the Azure GUI.
 
 <img src="images/pipeline_run_2.PNG" width=100%>
 
